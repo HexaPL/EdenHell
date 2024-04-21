@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "edenhell",
+	"version": "${version}",
+	"name": "EdenHell",
+	"description": "Baba Cie kocha",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/edenhell/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.hexa.edenhell.EdenHell"
+		]
+	},
+	"mixins": [
+		"edenhell.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
